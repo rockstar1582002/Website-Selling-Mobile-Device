@@ -1,0 +1,111 @@
+/* Menu trên */
+.menu_top {
+    width: 100%;
+    height: 64px;
+    background-color: #026db5;
+    /* background-image: linear-gradient(to bottom, #7474bf, #348ac7);  */
+  }
+  .menu_top .menu {
+    margin-right: 150px;
+  }
+  .menu_top .menu ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu_top .menu ul li {
+    list-style: none;
+    float: right;
+    padding: 0px 14px 20px;
+  }
+  .menu_top .menu ul li a {
+    text-decoration: none;
+    display: block;
+    height: 63px;
+    line-height: 63px;
+    color: rgb(255, 255, 255);
+  }
+  /* Gộp menu */
+  .menu_top .menu ul li a:hover {
+    color: rgb(255, 0, 0);
+  }
+  .menu_sub {
+    margin-top: 2px;
+    display: none;
+    height: 60px;
+  }
+  .menu_top .menu ul li:hover .menu_sub {
+    display: block;
+    position: absolute;
+    background: #112d4e;
+    margin-left: -15px;
+  }
+  /* form tim kiem */
+  .menu_top .search {
+    padding-top: 11.5px;
+  }
+  .menu_top .search .search_item {
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .menu_top .search .search_item input {
+    height: 38px;
+    width: 410px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+  }
+  .menu_top .search .search_item button {
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    border: none;
+    background: rgb(255, 255, 255);
+  }
+  .menu .logo img {
+    position: absolute;
+    height: 50px;
+    left: 110px;
+    top: 6px;
+  }
+  .menu_top .menu .name {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-top: 21px;
+  }
+  .menu_top .menu .name {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-top: 21.5px;
+  }
+  .menu_top .menu .dropdown ul li {
+    float: left;
+    width: 150px;
+    margin-top: -10px;
+  }
+  .menu_top .menu .dropdown .active {
+    margin-top: -40px;
+  }
+  .dropdown {
+    display: none;
+    margin-top: 25px;
+    width: 160px;
+    min-height: 110px;
+  }
+  .menu_top .menu ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background: #026db5;
+    margin-left: -10px;
+    top: 32px;
+  }
+
+  .menu_top .menu ul li:hover .dropdown a {
+    font-size: 1.2rem;
+  }
+ 

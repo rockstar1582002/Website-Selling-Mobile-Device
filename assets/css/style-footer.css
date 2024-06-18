@@ -1,0 +1,32 @@
+/* footer */
+.footer{
+    background-image: linear-gradient(to bottom, #7474bf, #348ac7); 
+    color: rgb(0,0,0);
+    margin-top: 20px;
+    float: left;
+    height: 350px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255,255,255);
+}
+.footer div {
+    line-height: 2.2;
+}
+.footer_info{
+    margin-left: 120px;
+    margin: 0px auto;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.license{
+    text-align: center;
+    margin-top: 5px;
+}

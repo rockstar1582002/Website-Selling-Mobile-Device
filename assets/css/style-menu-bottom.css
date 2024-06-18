@@ -1,0 +1,26 @@
+/* menu duoi */
+.menu_bottom {
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid #d1d5db;
+    background: rgb(255, 255, 255);
+  }
+  .menu_bottom .type {
+    margin-left: 430px;
+  }
+  .menu_bottom .type ul {
+    margin: 0;
+    padding: 0;
+  }
+  .menu_bottom .type ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 40px 20px;
+  }
+  .menu_bottom .type ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .menu_bottom .type ul li :hover {
+    color: rgb(255, 0, 0);
+  }
